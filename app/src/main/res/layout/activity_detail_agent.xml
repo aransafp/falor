@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_500"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.DetailAgentActivity">
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="195dp"
+        android:layout_height="255dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:theme="@style/TextToska.name"
+        tools:text="Agent Name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/box"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="role" />
+
+        <TextView
+            android:id="@+id/tv_biography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:theme="@style/TextContent"
+            tools:text="biography" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/special_abilites"
+        android:textStyle="bold"
+        android:theme="@style/TextToska" />
+
+    <TextView
+        android:id="@+id/tv_skill_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:theme="@style/TextContent"
+        tools:text="skill_1" />
+
+    <TextView
+        android:id="@+id/tv_skill_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:theme="@style/TextContent"
+        tools:text="skill_2" />
+
+    <TextView
+        android:id="@+id/tv_skill_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:theme="@style/TextContent"
+        tools:text="skill_3" />
+
+    <TextView
+        android:id="@+id/tv_skill_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:theme="@style/TextContent"
+        tools:text="skill_4" />
+
+</LinearLayout>
